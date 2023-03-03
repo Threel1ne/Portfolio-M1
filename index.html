@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <title>Tharathep Luangsilp's Portfolio</title>
     <style>
-      /* Set font styles for the whole page */
       body {
-        font-family: Arial, sans-serif;
         font-size: 16px;
       }
       
-      /* Style the header section */
       header {
         background-color: #333;
         color: #fff;
@@ -22,8 +19,6 @@
       header h1 {
         margin: 0;
       }
-      
-      /* Style the navigation bar */
       nav {
         background-color: #ddd;
         padding: 10px;
@@ -57,7 +52,6 @@
         color: #fff;
       }
       
-      /* Style the main content section */
       main {
         padding: 20px;
         display: flex;
@@ -81,7 +75,6 @@
         margin-top: 0;
       }
       
-      /* Style the footer section */
       footer {
         background-color: #333;
         color: #fff;
@@ -93,7 +86,6 @@
         width: 100%;
       }
       
-      /* Style the modal */
       #modal {
         display: none;
         position: fixed;
@@ -106,7 +98,6 @@
         background-color: rgba(0,0,0,0.9);
       }
       
-      /* Style the modal content */
       #modal-content {
         display: block;
         margin: auto;
@@ -114,7 +105,6 @@
         max-height: 80%;
       }
       
-      /* Style the close button */
       .close {
         color: #fff;
         font-size: 30px;
@@ -138,6 +128,7 @@
     </header>
     <nav>
       <ul>
+        <li><a href="https://threel1ne.github.io/Portfolio-Info">Info</a></li>
         <li><a href="https://threel1ne.github.io/Portfolio-M1">M.1</a></li>
         <li><a href="https://threel1ne.github.io/Portfolio-M2">M.2</a></li>
         <li><a href="https://threel1ne.github.io/Portfolio-M3">M.3</a></li>
@@ -169,19 +160,12 @@
     <p>&copy; 2023 Tharathep Luangsilp</p>
   </footer>
   <script>
-    // Get the modal element
     var modal = document.getElementById("modal");
-  
-    // Get the modal content element
     var modalContent = document.getElementById("modal-content");
-  
-    // When the user clicks on an image, open the modal
     function openModal(src) {
       modal.style.display = "block";
-      modalContent.src = src;
+      modalContent.src = srk;
     }
-  
-    // When the user clicks on the close button or outside of the modal, close it
     function closeModal() {
       modal.style.display = "none";
     }
